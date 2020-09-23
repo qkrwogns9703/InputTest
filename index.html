@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>유효성 검사</title>
+        <link rel = "stylesheet" type = "text/css" href = "index.css" />
+    </head>
+    <body>
+        <h3>회원 가입</h3><br/</br/>
+        <span>아이디 : </span>
+        <input type = "text" id = "userId" > <span id = "checkId" class = "check"></span> <br/><br/>
+
+        <span>비밀번호 :</span>
+        <input type = "password" id = "userPass" /><span id = "checkPass" class = "check"></span><br/><br/>
+
+        <span>비밀번호 확인 :</span>
+        <input type = "password" id = "userPass2" /><span id = "checkPass2" class = "check"></span><br/><br/>
+
+        <span>이메일</span>
+        <input type = "text" id = "userEmail1" > @ 
+        <select id = "userEmail2">
+            <option value = "0">선택하세요</option>
+            <option value = "@naver.com">네이버</option>
+            <option value = "@gmail.com">구글</option>
+        </select>
+        <span id = "checkEmail" class = "check"></span> 
+        <br/><br/>
+
+        <button id = "regist">회원 가입</button>
+    
+    <script src="index.js" ></script>    
+    </body>
+</html>
